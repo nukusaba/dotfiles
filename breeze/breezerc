@@ -1,0 +1,9 @@
+[Common]
+ShadowSize=ShadowMedium
+ShadowStrength=179
+
+[Style]
+DockWidgetDrawFrame=true
+MenuOpacity=80
+SidePanelDrawFrame=true
+WindowDragMode=WD_FULL

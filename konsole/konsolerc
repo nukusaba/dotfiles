@@ -1,0 +1,17 @@
+MenuBar=Disabled
+
+[Desktop Entry]
+DefaultProfile=Mellowaru.profile
+
+[FileDialogSize]
+2 screens: Height=540
+2 screens: Width=960
+
+[General]
+ConfigVersion=1
+
+[MainWindow]
+MenuBar=Disabled
+
+[UiSettings]
+ColorScheme=

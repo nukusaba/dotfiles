@@ -1,0 +1,11 @@
+[FileDialogSize]
+1440x900 screen: Height=385
+1440x900 screen: Width=836
+2 screens: Height=702
+2 screens: Width=923
+
+[KFileDialog Settings]
+detailViewIconSize=64
+
+[systemsettings_sidebar_mode]
+HighlightNonDefaultSettings=false
