@@ -1,34 +1,32 @@
 partial alphanumeric_keys
 xkb_symbols "dvorak" {
-    include "us(dvorak)"
+    name[Group1]="Dvorak Mellowaru";
 
-    name[Group1]="German (Dvorak)";
+    key <AE01>{[ 1, exclam, F1,	UFF11	]};
+    key <AE02>	{[ 2, quotedbl, F2,	UFF12 ]};
+    key <AE03>	{[ 3, numbersign, F3,	UFF13 ]};
+    key <AE04>	{[ 4, dollar, F4,	UFF14 ]};
+    key <AE05>	{[ 5, percent, F5, UFF15 ]};
+    key <AE06>	{[ 6, ampersand, F6, UFF16 ]};
+    key <AE07>	{[ 7, apostrophe, F7,	UFF17 ]};
+    key <AE08>	{[ 8, parenleft, F8, UFF18 ]};
+    key <AE09>	{[ 9, parenright, F9,	UFF19 ]};
+    key <AE10>	{[ 0, underscore, F10, UFF10 ]};
+    key <AE11>	{[ at, grave, F11, nosign ]};
+    key <AE12>	{[ asciicircum, asciitilde, F12, Uf32e ]};
 
-    key <AE01>{[ 1, exclam,	UFF11	]};
-    key <AE02>	{[ 2, quotedbl,	UFF12	]};
-    key <AE03>	{[ 3, numbersign,	UFF13 ]};
-    key <AE04>	{[ 4, dollar,	UFF14	]};
-    key <AE05>	{[ 5, percent, UFF15 ]};
-    key <AE06>	{[ 6, ampersand, UFF16 ]};
-    key <AE07>	{[ 7, apostrophe,	UFF17 ]};
-    key <AE08>	{[ 8, parenleft, UFF18 ]};
-    key <AE09>	{[ 9, parenright,	UFF19 ]};
-    key <AE10>	{[ 0, underscore, UFF10	]};
-    key <AE11>	{[ at, grave		]};
-    key <AE12>	{[ asciicircum, asciitilde ]};
-
-    key <AD01>	{[ colon, asterisk	]};
-    key <AD02>	{[ comma, less		]};
-    key <AD03>	{[ period, greater	]};
-    key <AD04>	{[ p, P			]};
-    key <AD05>	{[ y, Y, yen			]};
-    key <AD06>	{[ f, F			]};
-    key <AD07>	{[ g, G			]};
-    key <AD08>	{[ c, C		]};
-    key <AD09>	{[ r, R			]};
-    key <AD10>	{[ l, L			]};
-    key <AD11>	{[ slash, question	]};
-    key <AD12>	{[ bracketleft, braceleft ]};
+    key <AD01>	{[ colon, asterisk, F13	]};
+    key <AD02>	{[ comma, less, F14		]};
+    key <AD03>	{[ period, greater, F15	]};
+    key <AD04>	{[ p, P, F16			]};
+    key <AD05>	{[ y, Y, F17, yen 			]};
+    key <AD06>	{[ f, F, F18			]};
+    key <AD07>	{[ g, G, F19			]};
+    key <AD08>	{[ c, C, F20		]};
+    key <AD09>	{[ r, R, F21			]};
+    key <AD10>	{[ l, L, F22			]};
+    key <AD11>	{[ slash, question, F23	]};
+    key <AD12>	{[ bracketleft, braceleft, F24 ]};
     key <AC12>	{[ bracketright, braceright ]};
 
     key <AC01>	{[ a, A, adiaeresis, Adiaeresis	]};
@@ -49,6 +47,7 @@ xkb_symbols "dvorak" {
     key <AB04>	{[ k, K			]};
     key <AB05>	{[ x, X			]};
     key <AB06>	{[ b, B			]};
+    key <AB07>  {[ m, M     ]};
     key <AB08>	{[ w, W			]};
     key <AB09>	{[ v, V			]};
     key <AB10>	{[ z, Z			]};
@@ -56,4 +55,5 @@ xkb_symbols "dvorak" {
     key <CAPS>  {[ backslash, bar ]};
 
     key <RTSH> {[ ISO_Level3_Shift ]};
+    key <RALT> {[  ISO_Level5_Shift  ], type[group1]="ONE_LEVEL" };
 };
