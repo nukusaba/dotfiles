@@ -4,16 +4,16 @@ xkb_symbols "dvorak" {
 
     name[Group1]="German (Dvorak)";
 
-
-    key <AE01>{[ 1, exclam		]};
-    key <AE02>	{[ 2, quotedbl		]};
-    key <AE03>	{[ 3, numbersign	]};
-    key <AE04>	{[ 4, dollar		]};
-    key <AE05>	{[ 5, percent		]};
-    key <AE06>	{[ 6, ampersand		]};
-    key <AE07>	{[ 7, apostrophe	]};
-    key <AE08>	{[ 8, parenleft		]};
-    key <AE09>	{[ 9, parenright	]};
+    key <AE01>{[ 1, exclam,	UFF11	]};
+    key <AE02>	{[ 2, quotedbl,	UFF12	]};
+    key <AE03>	{[ 3, numbersign,	UFF13 ]};
+    key <AE04>	{[ 4, dollar,	UFF14	]};
+    key <AE05>	{[ 5, percent, UFF15 ]};
+    key <AE06>	{[ 6, ampersand, UFF16 ]};
+    key <AE07>	{[ 7, apostrophe,	UFF17 ]};
+    key <AE08>	{[ 8, parenleft, UFF18 ]};
+    key <AE09>	{[ 9, parenright,	UFF19 ]};
+    key <AE10>	{[ 0, underscore, UFF10	]};
     key <AE11>	{[ at, grave		]};
     key <AE12>	{[ asciicircum, asciitilde ]};
 
@@ -24,7 +24,7 @@ xkb_symbols "dvorak" {
     key <AD05>	{[ y, Y, yen			]};
     key <AD06>	{[ f, F			]};
     key <AD07>	{[ g, G			]};
-    key <AD08>	{[ c, C			]};
+    key <AD08>	{[ c, C		]};
     key <AD09>	{[ r, R			]};
     key <AD10>	{[ l, L			]};
     key <AD11>	{[ slash, question	]};
@@ -53,7 +53,6 @@ xkb_symbols "dvorak" {
     key <AB09>	{[ v, V			]};
     key <AB10>	{[ z, Z			]};
 
-    key <AE10>	{[ 0, underscore	]};
     key <CAPS>  {[ backslash, bar ]};
 
     key <RTSH> {[ ISO_Level3_Shift ]};
