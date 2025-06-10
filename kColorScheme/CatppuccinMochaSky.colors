@@ -21,11 +21,11 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=41,44,69
 BackgroundNormal=30,30,46
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
+DecorationFocus=137,220,235
+DecorationHover=66,67,91
 ForegroundActive=142,172,255
 ForegroundInactive=184,192,224
-ForegroundLink=148,226,213
+ForegroundLink=137,220,235
 ForegroundNegative=237,135,150
 ForegroundNeutral=238,212,159
 ForegroundNormal=202,211,245
@@ -53,12 +53,12 @@ ForegroundNormal=205,214,244
 
 [Colors:Selection]
 BackgroundAlternate=121,218,186
-BackgroundNormal=148,226,213
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
+BackgroundNormal=137,220,235
+DecorationFocus=137,220,235
+DecorationHover=66,67,91
 ForegroundActive=142,172,255
 ForegroundInactive=206,211,229
-ForegroundLink=148,226,213
+ForegroundLink=137,220,235
 ForegroundNegative=237,135,150
 ForegroundNeutral=238,212,159
 ForegroundNormal=26,25,42
@@ -68,11 +68,11 @@ ForegroundVisited=203,166,247
 [Colors:Tooltip]
 BackgroundAlternate=73,77,100
 BackgroundNormal=24,25,38
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
+DecorationFocus=137,220,235
+DecorationHover=66,67,91
 ForegroundActive=142,172,255
 ForegroundInactive=184,192,224
-ForegroundLink=148,226,213
+ForegroundLink=137,220,235
 ForegroundNegative=237,135,150
 ForegroundNeutral=238,212,159
 ForegroundNormal=202,211,245
@@ -82,11 +82,11 @@ ForegroundVisited=203,166,247
 [Colors:View]
 BackgroundAlternate=28,28,44
 BackgroundNormal=24,24,37
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
+DecorationFocus=137,220,235
+DecorationHover=66,67,91
 ForegroundActive=142,172,255
 ForegroundInactive=184,192,224
-ForegroundLink=148,226,213
+ForegroundLink=137,220,235
 ForegroundNegative=237,135,150
 ForegroundNeutral=238,212,159
 ForegroundNormal=202,211,245
@@ -96,11 +96,11 @@ ForegroundVisited=203,166,247
 [Colors:Window]
 BackgroundAlternate=27,28,43
 BackgroundNormal=24,24,37
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
+DecorationFocus=137,220,235
+DecorationHover=66,67,91
 ForegroundActive=142,172,255
 ForegroundInactive=184,192,224
-ForegroundLink=148,226,213
+ForegroundLink=137,220,235
 ForegroundNegative=237,135,150
 ForegroundNeutral=238,212,159
 ForegroundNormal=202,211,245
@@ -108,7 +108,7 @@ ForegroundPositive=198,240,120
 ForegroundVisited=203,166,247
 
 [General]
-Name=Catppuccin.Mocha.Teal
+Name=Catppuccin.Mocha.Sky
 shadeSortColumn=true
 
 [KDE]
