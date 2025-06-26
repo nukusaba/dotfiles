@@ -2,9 +2,9 @@
 AntiAliasFonts=true
 BoldIntense=true
 BorderWhenActive=true
-ColorScheme=CatppuccinMochaTeal
+ColorScheme=Shimaray
 EmojiFont=Twemoji Mozilla,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-FocusBorderColor=59,60,81
+FocusBorderColor=81,81,81
 Font=JetBrainsMonoNL Nerd Font,11,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
 IgnoreWcWidth=false
 LineSpacing=0
@@ -17,8 +17,8 @@ WordModeBrahmic=false
 
 [Cursor Options]
 CursorShape=1
-CustomCursorColor=173,185,227
-CustomCursorTextColor=23,23,36
+CustomCursorColor=231,231,231
+CustomCursorTextColor=37,37,37
 UseCustomCursorColor=true
 
 [Encoding Options]
@@ -26,7 +26,7 @@ DefaultEncoding=UTF-8
 
 [General]
 DimWhenInactive=false
-Name=Mellowaru
+Name=Velixi
 Parent=FALLBACK/
 StartInCurrentSessionDir=true
 TerminalCenter=false
