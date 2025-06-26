@@ -9,21 +9,23 @@ MaxFPS=76
 Id_1=b7b39ac3-2e9f-424c-a3f2-23f4414e088e
 Id_2=4c89d9d6-02b1-43dd-b0c9-05ad1c8dc870
 Id_3=6bdc3e82-600a-4a0f-bab4-e409072a892a
+Id_4=71306f54-37f5-4259-ba0d-4827140fc09c
 Name_1=1
 Name_2=2
 Name_3=3
-Number=3
+Name_4=4
+Number=4
 Rows=1
 
 [Effect-blur]
-BlurStrength=10
+BlurStrength=12
 NoiseStrength=4
 
 [Effect-blurplus]
 BlurDecorations=true
 BlurDocks=true
 BlurMenus=true
-BlurStrength=8
+BlurStrength=10
 BottomCornerRadius=6
 Brightness=1.1
 Contrast=1.4
@@ -35,13 +37,13 @@ RoundCornersOfMaximizedWindows=true
 RoundedCornersAntialiasing=0
 TopCornerRadius=6
 TransparentBlur=false
-WindowClasses=krunner\nkonsole\nkate\ndolphin\nsystemsettings
+WindowClasses=krunner\nkonsole\nkate\ndolphin\nsystemsettings\n
 
 [Effect-colorblindnesscorrection]
 Intensity=0.55280234375
 
 [Effect-cube]
-BackgroundColor=4,6,18
+BackgroundColor=15,15,24
 
 [Effect-diminactive]
 Strength=15
@@ -81,10 +83,13 @@ InScale=0.85
 OutScale=0.85
 
 [Effect-translucency]
-MoveResize=75
+MoveResize=85
 
 [Effect-wobblywindows]
 AdvancedMode=true
+Drag=79
+MoveFactor=12
+Stiffness=13
 
 [Input]
 TabletMode=off
@@ -98,21 +103,23 @@ CommandTitlebarWheel=Change Opacity
 [NightColor]
 Active=true
 EveningBeginFixed=2100
-Mode=Times
+Mode=Constant
 MorningBeginFixed=0700
-NightTemperature=2700
+NightTemperature=6000
 
 [Plugins]
 blurEnabled=true
 contrastEnabled=false
 cubeEnabled=true
 desktopchangeosdEnabled=true
+dialogparentEnabled=false
 diminactiveEnabled=true
 dimscreenEnabled=true
 eyeonscreenEnabled=true
 hidecursorEnabled=true
 invertEnabled=true
 krohnkiteEnabled=false
+kwin4_effect_shapecornersEnabled=false
 maximized-window-gapsEnabled=false
 shakecursorEnabled=false
 tilerEnabled=true
@@ -123,28 +130,27 @@ windowapertureEnabled=false
 ActiveOutlineAlpha=255
 ActiveOutlineUseCustom=false
 ActiveOutlineUsePalette=true
-ActiveSecondOutlinePalette=1
-ActiveSecondOutlineUseCustom=false
-ActiveSecondOutlineUsePalette=true
+ActiveSecondOutlineAlpha=172
+ActiveSecondOutlinePalette=5
 DisableOutlineMaximize=false
 DisableOutlineTile=false
-DisableRoundMaximize=false
-DisableRoundTile=false
-InactiveCornerRadius=9
+Exclusions=ksmserver-logout-greeter
+InactiveCornerRadius=15
 InactiveOutlineAlpha=255
-InactiveOutlineColor=213,213,213
-InactiveOutlinePalette=2
-InactiveOutlineThickness=3
+InactiveOutlineColor=191,163,163
+InactiveOutlinePalette=3
+InactiveOutlineThickness=4.25
 InactiveOutlineUseCustom=false
 InactiveOutlineUsePalette=true
-InactiveSecondOutlinePalette=1
-InactiveSecondOutlineThickness=2
-InactiveSecondOutlineUseCustom=false
-InactiveSecondOutlineUsePalette=true
+InactiveSecondOutlineAlpha=173
+InactiveSecondOutlineColor=13,13,22
+InactiveSecondOutlinePalette=5
+InactiveSecondOutlineThickness=0
 OutlineColor=213,213,213
-OutlineThickness=3
-SecondOutlineThickness=2
-Size=9
+OutlineThickness=4.25
+SecondOutlineColor=13,13,22
+SecondOutlineThickness=0
+Size=15
 
 [Script-krohnkite]
 columnsLayoutInitialRotationAngle=1
@@ -185,6 +191,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][198d2873-59df-506c-873c-ef067aaab85b]
 tiles={"layoutDirection":"horizontal","tiles":[]}
 
+[Tiling][1d04300f-2059-5c32-bc69-63d412211440]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][4dd1f19e-f1b6-54f4-aadf-0bf6a8e7948b]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -221,11 +230,14 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][d02c035d-eef0-5c68-aa2f-2e83d0ba08b1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][d5a06c44-0e8e-55e2-b4f3-3fa5cdd72b38]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][e261dc06-4ba6-5ef4-a7e1-ac822945a547]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
-InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
+InputMethod[$e]=/usr/share/applications/fcitx5-wayland-launcher.desktop
 VirtualKeyboardEnabled=true
 
 [Windows]
@@ -234,7 +246,6 @@ DelayFocusInterval=0
 FocusPolicy=FocusFollowsMouse
 FocusStealingPreventionLevel=0
 NextFocusPrefersMouse=true
-Placement=UnderMouse
 SnapOnlyWhenOverlapping=true
 WindowSnapZone=20
 

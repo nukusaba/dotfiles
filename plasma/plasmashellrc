@@ -39,9 +39,6 @@ PreloadWeight=42
 [KFileDialog Settings]
 detailViewIconSize=32
 
-[PlasmaTransientsConfig]
-PreloadWeight=0
-
 [PlasmaViews][Panel 115]
 floating=0
 panelOpacity=1
@@ -435,8 +432,8 @@ panelOpacity=2
 thickness=32
 
 [PlasmaViews][Panel 814]
-floating=1
-panelOpacity=1
+floating=0
+panelOpacity=2
 panelVisibility=0
 
 [PlasmaViews][Panel 814][Defaults]
@@ -456,6 +453,14 @@ panelOpacity=1
 panelVisibility=0
 
 [PlasmaViews][Panel 877][Defaults]
+thickness=38
+
+[PlasmaViews][Panel 913]
+floating=0
+panelOpacity=2
+panelVisibility=0
+
+[PlasmaViews][Panel 913][Defaults]
 thickness=38
 
 [Updates]

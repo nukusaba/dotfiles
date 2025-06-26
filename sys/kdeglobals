@@ -1,121 +1,131 @@
 [ColorEffects:Disabled]
 ChangeSelectionColor=
-Color=91,96,120
+Color=0,0,0
 ColorAmount=0
-ColorEffect=0
-ContrastAmount=0.65
+ColorEffect=3
+ContrastAmount=0.7000000000000001
 ContrastEffect=1
 Enable=
-IntensityAmount=0.1
-IntensityEffect=2
+IntensityAmount=-0.05
+IntensityEffect=0
 
 [ColorEffects:Inactive]
 ChangeSelectionColor=true
-Color=118,105,255
-ColorAmount=0.025
-ColorEffect=2
+Color=233,139,167
+ColorAmount=-1
+ColorEffect=0
 ContrastAmount=0
 ContrastEffect=0
-Enable=true
-IntensityAmount=0.2
+Enable=
+IntensityAmount=-1
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=41,44,69
-BackgroundNormal=30,30,46
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
-ForegroundActive=142,172,255
-ForegroundInactive=184,192,224
-ForegroundLink=148,226,213
-ForegroundNegative=237,135,150
-ForegroundNeutral=238,212,159
-ForegroundNormal=202,211,245
-ForegroundPositive=198,240,120
-ForegroundVisited=203,166,247
+BackgroundAlternate=59,59,59
+BackgroundNormal=34,34,34
+DecorationFocus=231,231,231
+DecorationHover=231,231,231
+ForegroundActive=255,255,255
+ForegroundInactive=167,167,167
+ForegroundLink=154,184,215
+ForegroundNegative=163,116,116
+ForegroundNeutral=223,175,143
+ForegroundNormal=221,221,221
+ForegroundPositive=96,180,138
+ForegroundVisited=220,140,195
 
 [Colors:Complementary]
-BackgroundAlternate=24,25,38
-BackgroundNormal=36,39,58
-DecorationFocus=183,189,248
-DecorationHover=183,189,248
-ForegroundActive=183,189,248
-ForegroundInactive=184,192,224
-ForegroundLink=183,189,248
-ForegroundNegative=237,135,150
-ForegroundNeutral=238,212,159
-ForegroundNormal=202,211,245
-ForegroundPositive=166,218,149
-ForegroundVisited=165,173,203
+BackgroundAlternate=56,56,56
+BackgroundNormal=56,56,56
+DecorationFocus=53,132,228
+DecorationHover=53,132,228
+ForegroundActive=153,193,241
+ForegroundInactive=192,191,188
+ForegroundLink=153,193,241
+ForegroundNegative=255,123,99
+ForegroundNeutral=248,228,92
+ForegroundNormal=255,255,255
+ForegroundPositive=143,240,164
+ForegroundVisited=220,138,221
 
 [Colors:Header]
-BackgroundAlternate=34,34,52
-BackgroundNormal=34,34,52
-ForegroundNormal=205,214,244
+BackgroundAlternate=39,39,39
+BackgroundNormal=39,39,39
+DecorationFocus=212,212,212
+DecorationHover=117,117,117
+ForegroundActive=153,193,241
+ForegroundInactive=192,191,188
+ForegroundLink=153,193,241
+ForegroundNegative=255,123,99
+ForegroundNeutral=248,228,92
+ForegroundNormal=230,230,230
+ForegroundPositive=143,240,164
+ForegroundVisited=220,138,221
 
 [Colors:Selection]
-BackgroundAlternate=121,218,186
-BackgroundNormal=148,226,213
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
-ForegroundActive=142,172,255
-ForegroundInactive=206,211,229
-ForegroundLink=148,226,213
-ForegroundNegative=237,135,150
-ForegroundNeutral=238,212,159
-ForegroundNormal=26,25,42
-ForegroundPositive=198,240,120
-ForegroundVisited=203,166,247
+BackgroundAlternate=212,212,212
+BackgroundNormal=231,231,231
+DecorationFocus=231,231,231
+DecorationHover=231,231,231
+ForegroundActive=255,255,255
+ForegroundInactive=131,131,131
+ForegroundLink=154,184,215
+ForegroundNegative=163,116,116
+ForegroundNeutral=223,175,143
+ForegroundNormal=104,104,104
+ForegroundPositive=96,180,138
+ForegroundVisited=220,140,195
 
 [Colors:Tooltip]
-BackgroundAlternate=73,77,100
-BackgroundNormal=24,25,38
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
-ForegroundActive=142,172,255
-ForegroundInactive=184,192,224
-ForegroundLink=148,226,213
-ForegroundNegative=237,135,150
-ForegroundNeutral=238,212,159
-ForegroundNormal=202,211,245
-ForegroundPositive=198,240,120
-ForegroundVisited=203,166,247
+BackgroundAlternate=27,27,27
+BackgroundNormal=230,230,230
+DecorationFocus=231,231,231
+DecorationHover=231,231,231
+ForegroundActive=255,255,255
+ForegroundInactive=167,167,167
+ForegroundLink=154,184,215
+ForegroundNegative=163,116,116
+ForegroundNeutral=223,175,143
+ForegroundNormal=57,57,57
+ForegroundPositive=96,180,138
+ForegroundVisited=220,140,195
 
 [Colors:View]
-BackgroundAlternate=28,28,44
-BackgroundNormal=24,24,37
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
-ForegroundActive=142,172,255
-ForegroundInactive=184,192,224
-ForegroundLink=148,226,213
-ForegroundNegative=237,135,150
-ForegroundNeutral=238,212,159
-ForegroundNormal=202,211,245
-ForegroundPositive=198,240,120
-ForegroundVisited=203,166,247
+BackgroundAlternate=27,27,27
+BackgroundNormal=25,25,25
+DecorationFocus=231,231,231
+DecorationHover=231,231,231
+ForegroundActive=255,255,255
+ForegroundInactive=167,167,167
+ForegroundLink=154,184,215
+ForegroundNegative=163,116,116
+ForegroundNeutral=223,175,143
+ForegroundNormal=221,221,221
+ForegroundPositive=96,180,138
+ForegroundVisited=220,140,195
 
 [Colors:Window]
-BackgroundAlternate=27,28,43
-BackgroundNormal=24,24,37
-DecorationFocus=148,226,213
-DecorationHover=59,77,88
-ForegroundActive=142,172,255
-ForegroundInactive=184,192,224
-ForegroundLink=148,226,213
-ForegroundNegative=237,135,150
-ForegroundNeutral=238,212,159
-ForegroundNormal=202,211,245
-ForegroundPositive=198,240,120
-ForegroundVisited=203,166,247
+BackgroundAlternate=41,41,41
+BackgroundNormal=25,25,25
+DecorationFocus=231,231,231
+DecorationHover=231,231,231
+ForegroundActive=255,255,255
+ForegroundInactive=167,167,167
+ForegroundLink=154,184,215
+ForegroundNegative=163,116,116
+ForegroundNeutral=223,175,143
+ForegroundNormal=221,221,221
+ForegroundPositive=96,180,138
+ForegroundVisited=220,140,195
 
 [DirSelect Dialog]
 DirSelectDialog Size=1123,599
+History Items[$e]=file:$HOME/FOSS/dotfile,file:$HOME/Music/Rain Sleep Music,file:$HOME/Music/Miku,file:$HOME/Music/Miku,file:$HOME/Music/MikuCute,file:$HOME/FOSS/MyTASes,file:$HOME/Music/stream,file:$HOME/Void/Lemmings/Platforms/Dos/Lem-cd,file:$HOME/.obsidian,file:$HOME/Videos,file:$HOME/Void/Lemmings/Platforms/Dos/Lem-cd,file:$HOME/Music/MikuCute,file:$HOME/Music/Miku,file:$HOME/Music,file:$HOME/Music/MikuCute,file:$HOME/Music/MikuCute,file:$HOME/FOSS/Libadwaita-KDE,file:$HOME/FOSS/breeze6-gtk,file:$HOME/Music/Miku,file:$HOME/Music/Miku,file:$HOME/Music,file:$HOME/Downloads,file:$HOME/Tools/Chess,file:$HOME/Pictures/wallpapers/AdachiToShimamura,file:$HOME/Videos,file:$HOME/Void/Lemmings/tracer,file:$HOME/Void/Lemmings/tracer,file:$HOME/Void/Lemmings/tracer,file:$HOME/Void/Lemmings/Platforms/Dos,file:$HOME/Void/Lemmings/Platforms/Dos/lem-floppy,file:$HOME/Void/Lemmings/Platforms/Dos/lem-floppy,file:$HOME/Void/Lemmings/Platforms/Dos/Lem-cd,file:$HOME/Void/Lemmings/Platforms/Dos/Lem-cd,file:$HOME/Void/Lemmings/Platforms/Dos/Lem-cd,file:$HOME/Void/Lemmings/Platforms/Dos/Lem-cd,file:$HOME/Void/Lemmings/Platforms/Dos/Lem-cd,file:$HOME/Void/Lemmings/Platforms/Dos,file:$HOME/Pictures/logo,file:$HOME/Void/SM64/sm64romhacks,file:$HOME/Void/SM64/sm64romhacks,file:$HOME/FOSS/Catppuccin-Urn,file:$HOME/FOSS/Real-Ann,file:$HOME/FOSS,file:$HOME/FOSS,file:$HOME/Void/SM64/sm64romhacks,file:$HOME/Void/SM64/sm64romhacks,file:$HOME/Void/SM64/sm64romhacks,file:$HOME/Void/SM64/sm64romhacks,file:$HOME/FOSS/MyTASes,file:$HOME/FOSS/baseGtk
 
 [General]
-ColorScheme=CatppuccinMochaTeal
-ColorSchemeHash=91bc07a49bbd4946c6b691028982d8c96c4bac60
-LastUsedCustomAccentColor=233,100,58
+ColorScheme=Shimaray
+ColorSchemeHash=cc9472286387ae51f4b6a192a6ada63a05416687
+LastUsedCustomAccentColor=115,160,46
 UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintfull
@@ -130,7 +140,6 @@ toolBarFont=Noto Sans CJK JP [GOOG],10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
 Theme=Papirus-Dark
 
 [KDE]
-AnimationDurationFactor=0.7071067811865475
 DoubleClickInterval=300
 ShowDeleteCommand=false
 ShowIconsOnPushButtons=false
@@ -145,7 +154,7 @@ LocationCombo Completionmode=5
 PathCombo Completionmode=5
 Show Bookmarks=false
 Show Full Path=false
-Show Inline Previews=false
+Show Inline Previews=true
 Show Preview=false
 Show Speedbar=true
 Show hidden files=true
@@ -184,10 +193,10 @@ Up=
 Theme=ds-harmony2-2.0.4
 
 [WM]
-activeBackground=24,24,37
-activeBlend=24,24,37
-activeFont=Noto Sans CJK JP [GOOG],10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
-activeForeground=205,214,244
-inactiveBackground=24,24,37
-inactiveBlend=24,24,37
-inactiveForeground=127,132,156
+activeBackground=48,48,48
+activeBlend=255,255,255
+activeFont=Noto Sans CJK JP [GOOG],10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Medium
+activeForeground=255,255,255
+inactiveBackground=36,36,36
+inactiveBlend=145,145,145
+inactiveForeground=145,145,145
