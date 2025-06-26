@@ -1,6 +1,6 @@
 partial alphanumeric_keys
 xkb_symbols "dvorak" {
-    name[Group1]="Dvorak Mellowaru";
+    name[Group1]="Dvorak Velixi";
 
     key <AE01>{[ 1, exclam, F1,	UFF11	]};
     key <AE02>	{[ 2, quotedbl, F2,	UFF12 ]};
