@@ -1,13 +1,12 @@
 MenuBar=Disabled
 
 [DetailsMode]
-ExpandableFolders=false
 IconSize=22
 PreviewSize=22
 SidePadding=16
 
 [FileDialogSize]
-2 screens: Height=548
+2 screens: Height=609
 2 screens: Width=922
 
 [FoldersPanel]
