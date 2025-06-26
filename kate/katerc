@@ -23,16 +23,16 @@ color5=#37d21c
 
 [General]
 Allow Tab Scrolling=true
-Auto Hide Tabs=false
+Auto Hide Tabs=true
 Close After Last=false
 Close documents with window=true
 Cycle To First Tab=true
 Days Meta Infos=30
 Diagnostics Limit=12000
 Diff Show Style=0
-Elide Tab Text=false
-Enable Context ToolView=false
-Expand Tabs=false
+Elide Tab Text=true
+Enable Context ToolView=true
+Expand Tabs=true
 Icon size for left and right sidebar buttons=32
 Last Session=Breeze6 GTK
 Modified Notification=false
@@ -203,17 +203,14 @@ SetEditor=false
 1600x900 screen: Height=801
 1600x900 screen: Width=799
 1600x900 screen: Window-Maximized=true
-2 screens: Height=1018
-2 screens: Width=959
+2 screens: Height=815
+2 screens: Width=1356
 
 [MainWindow][Toolbar hamburgerBar]
 ToolButtonStyle=IconOnly
 
 [MainWindow][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
-
-[UiSettings]
-ColorScheme=Catppuccin.Macchiato
 
 [filetree]
 editShade=110,71,94

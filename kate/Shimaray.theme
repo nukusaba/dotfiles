@@ -1,22 +1,5 @@
 {
     "custom-styles": {
-        "Alerts": {
-            "Alert Level 1": {
-                "background-color": "#f38ba8",
-                "selected-text-color": "#11111b",
-                "text-color": "#11111b"
-            },
-            "Alert Level 2": {
-                "background-color": "#f9e2af",
-                "selected-text-color": "#11111b",
-                "text-color": "#11111b"
-            },
-            "Alert Level 3": {
-                "background-color": "#a6e3a1",
-                "selected-text-color": "#11111b",
-                "text-color": "#11111b"
-            }
-        },
         "Asm6502": {
             "Instruction": {
                 "selected-text-color": "#8db2f7",
@@ -319,32 +302,6 @@
             "Tags": {
                 "selected-text-color": "#f38ba8",
                 "text-color": "#f38ba8"
-            }
-        },
-        "Fish": {
-            "Builtin": {
-                "selected-text-color": "#fab387",
-                "text-color": "#fab387"
-            },
-            "Escape": {
-                "selected-text-color": "#f5c2e7",
-                "text-color": "#f5c2e7"
-            },
-            "Option": {
-                "selected-text-color": "#f38ba8",
-                "text-color": "#f38ba8"
-            },
-            "Redirection": {
-                "selected-text-color": "#99d1db",
-                "text-color": "#99d1db"
-            },
-            "Separator": {
-                "selected-text-color": "#81c8be",
-                "text-color": "#81c8be"
-            },
-            "Variable": {
-                "selected-text-color": "#cdd6f4",
-                "text-color": "#cdd6f4"
             }
         },
         "GCCExtensions": {
@@ -1033,99 +990,99 @@
         }
     },
     "editor-colors": {
-        "BackgroundColor": "#171724",
+        "BackgroundColor": "#191919",
         "BracketMatching": "#0fa5add1",
-        "CodeFolding": "#1aa0a8eb",
-        "CurrentLine": "#212134",
-        "CurrentLineNumber": "#959de8",
-        "IconBorder": "#171724",
-        "IndentationLine": "#313244",
-        "LineNumbers": "#45475a",
-        "MarkBookmark": "#cba6f7",
-        "MarkBreakpointActive": "#f5c2e7",
-        "MarkBreakpointDisabled": "#6c7086",
-        "MarkBreakpointReached": "#a6e3a1",
-        "MarkError": "#f38ba8",
-        "MarkExecution": "#9399b2",
-        "MarkWarning": "#fab387",
-        "ModifiedLines": "#fab387",
-        "ReplaceHighlight": "#66a6e3a1",
-        "SavedLines": "#a6e3a1",
+        "CodeFolding": "#1aebebeb",
+        "CurrentLine": "#232323",
+        "CurrentLineNumber": "#ffffff",
+        "IconBorder": "#191919",
+        "IndentationLine": "#444444",
+        "LineNumbers": "#4f4f4f",
+        "MarkBookmark": "#dc8cc3",
+        "MarkBreakpointActive": "#b976a5",
+        "MarkBreakpointDisabled": "#868686",
+        "MarkBreakpointReached": "#60b48a",
+        "MarkError": "#705050",
+        "MarkExecution": "#b2b2b2",
+        "MarkWarning": "#dfaf8f",
+        "ModifiedLines": "#dfaf8f",
+        "ReplaceHighlight": "#6660b48a",
+        "SavedLines": "#60b48a",
         "SearchHighlight": "#6689b4fa",
-        "Separator": "#2c2b3e",
-        "SpellChecking": "#eba0ac",
-        "TabMarker": "#313244",
-        "TemplateBackground": "#585b70",
-        "TemplateFocusedPlaceholder": "#94e2d5",
-        "TemplatePlaceholder": "#74c7ec",
-        "TemplateReadOnlyPlaceholder": "#eba0ac",
-        "TextSelection": "#27273e",
-        "WordWrapMarker": "#2d2d4a"
+        "Separator": "#3e3e3e",
+        "SpellChecking": "#705050",
+        "TabMarker": "#444444",
+        "TemplateBackground": "#707070",
+        "TemplateFocusedPlaceholder": "#8cd0d3",
+        "TemplatePlaceholder": "#598586",
+        "TemplateReadOnlyPlaceholder": "#705050",
+        "TextSelection": "#303030",
+        "WordWrapMarker": "#2d2d2d"
     },
     "metadata": {
-        "name": "CatppuccinMochaTeal",
+        "name": "Shimaray",
         "revision": 1
     },
     "text-styles": {
         "Alert": {
             "bold": true,
             "italic": true,
-            "selected-text-color": "#f38ba8",
+            "selected-text-color": "#a67676",
             "strike-through": true,
-            "text-color": "#f38ba8",
+            "text-color": "#a67676",
             "underline": true
         },
         "Annotation": {
             "bold": true,
-            "selected-text-color": "#f9e2af",
-            "text-color": "#f9e2af"
+            "selected-text-color": "#dfcd8c",
+            "text-color": "#dfcd8c"
         },
         "Attribute": {
-            "selected-text-color": "#b4befe",
-            "text-color": "#b4befe"
+            "selected-text-color": "#9ab8d7",
+            "text-color": "#9ab8d7"
         },
         "BaseN": {
-            "selected-text-color": "#fab387",
-            "text-color": "#fab387"
+            "selected-text-color": "#dfaf8f",
+            "text-color": "#dfaf8f"
         },
         "BuiltIn": {
-            "selected-text-color": "#f38ba8",
-            "text-color": "#f38ba8"
+            "selected-text-color": "#a67676",
+            "text-color": "#a67676"
         },
         "Char": {
-            "selected-text-color": "#f5c2e7",
-            "text-color": "#f5c2e7"
+            "selected-text-color": "#dcdccc",
+            "text-color": "#dcdccc"
         },
         "Comment": {
             "bold": true,
-            "selected-text-color": "#5a5e6d",
-            "text-color": "#5a5e6d"
+            "selected-text-color": "#6d6d6d",
+            "text-color": "#6d6d6d"
         },
         "CommentVar": {
             "bold": true,
             "italic": true,
-            "selected-text-color": "#5a5e6d",
-            "text-color": "#5a5e6d"
+            "selected-text-color": "#6d6d6d",
+            "text-color": "#6d6d6d"
         },
         "Constant": {
-            "selected-text-color": "#fab387",
-            "text-color": "#fab387"
+            "selected-text-color": "#dfaf8f",
+            "text-color": "#dfaf8f"
         },
         "ControlFlow": {
-            "selected-text-color": "#cba6f7",
-            "text-color": "#cba6f7"
+            "selected-text-color": "#dc8cc3",
+            "text-color": "#dc8cc3"
         },
         "DataType": {
-            "selected-text-color": "#cba6f7",
-            "text-color": "#cba6f7"
+            "selected-text-color": "#bf8fe3",
+            "text-color": "#a97ec8"
         },
         "DecVal": {
-            "selected-text-color": "#fab387",
-            "text-color": "#fab387"
+            "selected-text-color": "#dfaf8f",
+            "text-color": "#dfaf8f"
         },
         "Documentation": {
-            "selected-text-color": "#f38ba8",
-            "text-color": "#f38ba8"
+            "selected-text-color": "#a67676",
+            "text-color": "#a67676"
         },
         "Error": {
             "selected-text-color": "#f38ba8",
@@ -1133,36 +1090,36 @@
             "underline": true
         },
         "Extension": {
-            "selected-text-color": "#89b4fa",
-            "text-color": "#89b4fa"
+            "selected-text-color": "#9ab8d7",
+            "text-color": "#9ab8d7"
         },
         "Float": {
-            "selected-text-color": "#fab387",
-            "text-color": "#fab387"
+            "selected-text-color": "#dfaf8f",
+            "text-color": "#dfaf8f"
         },
         "Function": {
             "bold": true,
-            "selected-text-color": "#89b4fa",
-            "text-color": "#89b4fa",
+            "selected-text-color": "#9ab8d7",
+            "text-color": "#9ab8d7",
             "underline": true
         },
         "Import": {
-            "selected-text-color": "#a6e3a1",
-            "text-color": "#a6e3a1"
+            "selected-text-color": "#60b48a",
+            "text-color": "#60b48a"
         },
         "Information": {
             "italic": true,
-            "selected-text-color": "#fab387",
-            "text-color": "#fab387"
+            "selected-text-color": "#dfaf8f",
+            "text-color": "#dfaf8f"
         },
         "Keyword": {
-            "selected-text-color": "#cba6f7",
-            "text-color": "#cba6f7"
+            "selected-text-color": "#dc8cc3",
+            "text-color": "#dc8cc3"
         },
         "Normal": {
             "bold": true,
-            "selected-text-color": "#cdd6f4",
-            "text-color": "#cdd6f4"
+            "selected-text-color": "#eaeaea",
+            "text-color": "#e5e5e5"
         },
         "Operator": {
             "selected-text-color": "#eb9595",
@@ -1179,18 +1136,18 @@
         "RegionMarker": {
             "bold": true,
             "italic": true,
-            "selected-text-color": "#5a5e6d",
-            "text-color": "#5a5e6d"
+            "selected-text-color": "#6d6d6d",
+            "text-color": "#6d6d6d"
         },
         "SpecialChar": {
             "bold": true,
             "italic": true,
-            "selected-text-color": "#f5c2e7",
-            "text-color": "#f5c2e7"
+            "selected-text-color": "#dcdccc",
+            "text-color": "#dcdccc"
         },
         "SpecialString": {
-            "selected-text-color": "#f38ba8",
-            "text-color": "#f38ba8"
+            "selected-text-color": "#a67676",
+            "text-color": "#a67676"
         },
         "String": {
             "bold": true,
@@ -1198,18 +1155,18 @@
             "text-color": "#e395bb"
         },
         "Variable": {
-            "selected-text-color": "#f5c2e7",
-            "text-color": "#f5c2e7"
+            "selected-text-color": "#dcdccc",
+            "text-color": "#dcdccc"
         },
         "VerbatimString": {
-            "selected-text-color": "#f38ba8",
-            "text-color": "#f38ba8"
+            "selected-text-color": "#a67676",
+            "text-color": "#a67676"
         },
         "Warning": {
             "bold": true,
             "italic": true,
-            "selected-text-color": "#fab387",
-            "text-color": "#fab387",
+            "selected-text-color": "#dfaf8f",
+            "text-color": "#dfaf8f",
             "underline": true
         }
     }
