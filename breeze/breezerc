@@ -4,6 +4,10 @@ ShadowStrength=179
 
 [Style]
 DockWidgetDrawFrame=true
+MenuItemDrawStrongFocus=false
 MenuOpacity=80
 SidePanelDrawFrame=true
 WindowDragMode=WD_FULL
+
+[Windeco]
+DrawBorderOnMaximizedWindows=true
