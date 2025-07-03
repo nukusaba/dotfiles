@@ -1,0 +1,73 @@
+// Custom Colors and Settings
+// BUTTONS
+            $button_bg_normal:  #28282d   ; // background
+          $button_fg_inactive:  #a7a7a7   ; // disabled text
+          $button_fg_negative:  #a37474   ; // errors/destructive actions
+            $button_fg_normal:  #eaecf1   ; // regular text
+
+// COMPLEMENTARY
+              $comp_bg_normal:  #383838   ; // background
+            $comp_fg_inactive:  #383838   ; // disabled text
+            $comp_fg_negative:  #b8b8b8   ; // errors/destructive actions
+              $comp_fg_normal:  #eaecf1   ; // regular text
+
+// HEADER (use title bar colors if your kde colorscheme has them)
+            $header_bg_normal:  #34343a   ; // background
+          $header_fg_inactive:  #a8a7a5   ; // disabled text
+          $header_fg_negative:  #ff7b63   ; // errors/destructive actions
+            $header_fg_normal:  #eaecf1   ; // regular text
+
+// HEADER (inactive) (copy colors from normal header if not set in your colorschemes)
+   $header_inactive_bg_normal:  #34343a   ; // background
+ $header_inactive_fg_inactive:  #a8a7a5   ; // disabled text
+ $header_inactive_fg_negative:  #ff7b63   ; // errors/destructive actions
+   $header_inactive_fg_normal:  #eaecf1   ; // regular text
+
+// SELECTION / ACCENT
+         $selection_bg_normal:  #f1e8d8   ; // background
+       $selection_fg_inactive:  #838383   ; // disabled text
+       $selection_fg_negative:  #a37474   ; // errors/destructive actions
+         $selection_fg_normal:  #514e49   ; // regular text
+
+// TOOLTIP
+           $tooltip_bg_normal:  #ffffff   ; // background
+         $tooltip_fg_inactive:  #ffffff   ; // disabled text
+         $tooltip_fg_negative:  #ffffff   ; // errors/destructive actions
+           $tooltip_fg_normal:  #eaecf1   ; // regular text
+
+// VIEW
+              $view_bg_normal:  #232327   ; // background
+            $view_fg_inactive:  #a7a7a7   ; // disabled text
+            $view_fg_negative:  #a37474   ; // errors/destructive actions
+              $view_fg_normal:  #eaecf1   ; // regular text
+
+// WINDOW
+            $window_bg_normal:  #232327   ; // background
+     $window_decoration_focus:  #f1e8d8   ; // focus. such as hovering a menu item
+     $window_decoration_hover:  #f1e8d8   ; // used for *some* hover related things
+            $window_fg_active:  #ffffff   ; // for active things
+          $window_fg_inactive:  #8b8b8b   ; // disabled text
+              $window_fg_link:  #9ab8d7   ; // links
+          $window_fg_negative:  #a37474   ; // errors/destructive actions
+           $window_fg_neutral:  #dfaf8f   ; // warning color
+            $window_fg_normal:  #eaecf1   ; // regular text
+          $window_fg_positive:  #60b48a   ; // success / good color
+      $window_fg_link_visited:  #dc8cc3   ; // visited links
+
+// SHADE (this is a special color it should match the shadow color of the breeze titlebar (ignored if bismuth decoration is used))
+                $breeze_shade:  #000000   ;
+
+// FONT SETTINGS
+  // 400 = regular. 500 = medium. 600 = semi-bold. 700 = bold. 800 = extra bold. 900 = black.
+                 $font-weight:  600          ; // default: 400
+            $font-menu-weight:  600          ; // default: 400
+           $font-title-weight:  600          ; // default: 400
+  // font sizes
+                   $font-size:  10pt         ; // default: 10pt
+              $font-menu-size:  10pt         ; // default: 10pt
+             $font-title-size:  10pt         ; // default: 10pt
+  // monospaced font
+                   $mono-font:  "JetBrainsMonoNL Nerd Font"  ; // font for monospace places (regular font adjusts to plasma settings)
+
+// Header/Titlebar padding
+              $header-padding:  5px          ; // extra padding in the headerbar
