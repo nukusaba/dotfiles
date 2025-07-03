@@ -116,7 +116,7 @@ Word Wrap Column=120
 [KTextEditor Renderer]
 Animate Bracket Matching=false
 Auto Color Theme Selection=false
-Color Theme=Shimaray
+Color Theme=soba
 Line Height Multiplier=1.3
 Show Indentation Lines=true
 Show Whole Bracket Expression=true
@@ -163,7 +163,7 @@ Scroll Bar Mini Map Width=100
 Scroll Bar MiniMap=true
 Scroll Bar Preview=true
 Scroll Past End=true
-Search/Replace Flags=525
+Search/Replace Flags=517
 Shoe Line Ending Type in Statusbar=true
 Show Documentation With Completion=true
 Show File Encoding=true
@@ -203,8 +203,9 @@ SetEditor=false
 1600x900 screen: Height=801
 1600x900 screen: Width=799
 1600x900 screen: Window-Maximized=true
-2 screens: Height=815
-2 screens: Width=1356
+2 screens: Height=1051
+2 screens: Width=920
+2 screens: Window-Maximized=true
 
 [MainWindow][Toolbar hamburgerBar]
 ToolButtonStyle=IconOnly

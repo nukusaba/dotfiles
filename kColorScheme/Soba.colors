@@ -18,16 +18,16 @@ IntensityAmount=-1
 IntensityEffect=0
 
 [Colors:Button]
-BackgroundAlternate=59,59,59
-BackgroundNormal=34,34,34
-DecorationFocus=231,231,231
-DecorationHover=231,231,231
+BackgroundAlternate=35,35,39
+BackgroundNormal=40,40,45
+DecorationFocus=241,232,216
+DecorationHover=241,232,216
 ForegroundActive=255,255,255
 ForegroundInactive=167,167,167
 ForegroundLink=154,184,215
 ForegroundNegative=163,116,116
 ForegroundNeutral=223,175,143
-ForegroundNormal=199,199,199
+ForegroundNormal=234,236,241
 ForegroundPositive=96,180,138
 ForegroundVisited=220,140,195
 
@@ -46,8 +46,8 @@ ForegroundPositive=143,240,164
 ForegroundVisited=220,138,221
 
 [Colors:Header]
-BackgroundAlternate=39,39,39
-BackgroundNormal=39,39,39
+BackgroundAlternate=52,52,58
+BackgroundNormal=52,52,58
 DecorationFocus=212,212,212
 DecorationHover=117,117,117
 ForegroundActive=153,193,241
@@ -61,63 +61,63 @@ ForegroundVisited=220,138,221
 
 [Colors:Selection]
 BackgroundAlternate=212,212,212
-BackgroundNormal=231,231,231
-DecorationFocus=231,231,231
-DecorationHover=231,231,231
+BackgroundNormal=241,232,216
+DecorationFocus=241,232,216
+DecorationHover=241,232,216
 ForegroundActive=255,255,255
 ForegroundInactive=131,131,131
 ForegroundLink=154,184,215
 ForegroundNegative=163,116,116
 ForegroundNeutral=223,175,143
-ForegroundNormal=104,104,104
+ForegroundNormal=81,78,73
 ForegroundPositive=96,180,138
 ForegroundVisited=220,140,195
 
 [Colors:Tooltip]
 BackgroundAlternate=27,27,27
-BackgroundNormal=230,230,230
-DecorationFocus=231,231,231
-DecorationHover=231,231,231
+BackgroundNormal=241,232,216
+DecorationFocus=241,232,216
+DecorationHover=241,232,216
 ForegroundActive=255,255,255
 ForegroundInactive=167,167,167
 ForegroundLink=154,184,215
 ForegroundNegative=163,116,116
 ForegroundNeutral=223,175,143
-ForegroundNormal=57,57,57
+ForegroundNormal=37,37,41
 ForegroundPositive=96,180,138
 ForegroundVisited=220,140,195
 
 [Colors:View]
-BackgroundAlternate=27,27,27
-BackgroundNormal=25,25,25
-DecorationFocus=231,231,231
-DecorationHover=231,231,231
+BackgroundAlternate=36,36,40
+BackgroundNormal=35,35,39
+DecorationFocus=241,232,216
+DecorationHover=241,232,216
 ForegroundActive=255,255,255
 ForegroundInactive=167,167,167
 ForegroundLink=154,184,215
 ForegroundNegative=163,116,116
 ForegroundNeutral=223,175,143
-ForegroundNormal=199,199,199
+ForegroundNormal=234,236,241
 ForegroundPositive=96,180,138
 ForegroundVisited=220,140,195
 
 [Colors:Window]
-BackgroundAlternate=41,41,41
-BackgroundNormal=25,25,25
-DecorationFocus=231,231,231
-DecorationHover=231,231,231
+BackgroundAlternate=35,35,39
+BackgroundNormal=35,35,39
+DecorationFocus=241,232,216
+DecorationHover=241,232,216
 ForegroundActive=255,255,255
 ForegroundInactive=139,139,139
 ForegroundLink=154,184,215
 ForegroundNegative=163,116,116
 ForegroundNeutral=223,175,143
-ForegroundNormal=199,199,199
+ForegroundNormal=234,236,241
 ForegroundPositive=96,180,138
 ForegroundVisited=220,140,195
 
 [General]
 ColorScheme=Libadw-dark
-Name=Shimaray
+Name=soba
 TintFactor=0.14
 shadeSortColumn=true
 

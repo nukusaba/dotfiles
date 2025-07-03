@@ -863,6 +863,12 @@
                 "text-color": "#f9e2af"
             }
         },
+        "SCSS": {
+            "Normal Text": {
+                "selected-text-color": "#e9ecf1",
+                "text-color": "#e9ecf1"
+            }
+        },
         "SQL": {
             "Operator Keyword": {
                 "selected-text-color": "#cba6f7",
@@ -990,14 +996,14 @@
         }
     },
     "editor-colors": {
-        "BackgroundColor": "#191919",
+        "BackgroundColor": "#232327",
         "BracketMatching": "#0fa5add1",
         "CodeFolding": "#1aebebeb",
-        "CurrentLine": "#232323",
+        "CurrentLine": "#27272c",
         "CurrentLineNumber": "#ffffff",
-        "IconBorder": "#191919",
+        "IconBorder": "#232327",
         "IndentationLine": "#444444",
-        "LineNumbers": "#4f4f4f",
+        "LineNumbers": "#35353b",
         "MarkBookmark": "#dc8cc3",
         "MarkBreakpointActive": "#b976a5",
         "MarkBreakpointDisabled": "#868686",
@@ -1016,11 +1022,11 @@
         "TemplateFocusedPlaceholder": "#8cd0d3",
         "TemplatePlaceholder": "#598586",
         "TemplateReadOnlyPlaceholder": "#705050",
-        "TextSelection": "#303030",
+        "TextSelection": "#2d2d32",
         "WordWrapMarker": "#2d2d2d"
     },
     "metadata": {
-        "name": "Shimaray",
+        "name": "soba",
         "revision": 1
     },
     "text-styles": {

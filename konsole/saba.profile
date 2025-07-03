@@ -26,7 +26,7 @@ DefaultEncoding=UTF-8
 
 [General]
 DimWhenInactive=false
-Name=Velixi
+Name=saba
 Parent=FALLBACK/
 StartInCurrentSessionDir=true
 TerminalCenter=false

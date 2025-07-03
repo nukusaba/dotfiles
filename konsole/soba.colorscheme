@@ -1,17 +1,17 @@
 [Background]
-Color=24,24,24
+Color=27,27,30
 
 [BackgroundFaint]
-Color=24,24,24
+Color=27,27,30
 
 [BackgroundIntense]
-Color=24,24,24
+Color=27,27,30
 
 [Color0]
 Color=63,63,63
 
 [Color0Faint]
-Color=52,52,52
+Color=100,100,100
 
 [Color0Intense]
 Color=116,116,116
@@ -80,10 +80,10 @@ Color=149,149,139
 Color=255,255,255
 
 [Foreground]
-Color=230,230,230
+Color=233,236,241
 
 [ForegroundFaint]
-Color=172,172,172
+Color=233,236,241
 
 [ForegroundIntense]
 Color=255,255,255
@@ -92,7 +92,7 @@ Color=255,255,255
 Anchor=0.5,0.5
 Blur=true
 ColorRandomization=false
-Description=Shimaray
+Description=soba
 FillStyle=Tile
 Opacity=0.8
 Wallpaper=
